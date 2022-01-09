@@ -15,3 +15,9 @@ def get_random_list(begin, end, length):
     for i in range(list_length):
         random_list.append(randint(list_begin, list_end))
     return random_list
+
+
+def swap(lyst, i, j):
+    temp = lyst[i]
+    lyst[i] = lyst[j]
+    lyst[j] = temp
